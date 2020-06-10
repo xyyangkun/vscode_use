@@ -1,0 +1,3 @@
+*.o
+cpp_makefile_demo/test
+*.out
