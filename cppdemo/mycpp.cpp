@@ -3,7 +3,7 @@
 #include <string>
 #include <map>
 #include <memory>
-#include "t1.h"
+
 
 int main()
 {
@@ -14,7 +14,5 @@ int main()
         std::cout << i.first << " " << i.second << std::endl;
     }
 
-    std::shared_ptr<t1> p_t1 = std::make_shared<t1>();
-    p_t1->print();
 
 }
